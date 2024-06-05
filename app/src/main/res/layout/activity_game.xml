@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_main"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_set"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="215dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前积分:"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/tv_jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:text="0"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_normalmode"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经典模式"
+            android:layout_centerInParent="true"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_hardmode"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="困难模式"
+            android:layout_centerInParent="true"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_rank"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排行榜"
+            android:layout_centerInParent="true"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_rule"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏规则"
+            android:layout_centerInParent="true"
+            android:textSize="26dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

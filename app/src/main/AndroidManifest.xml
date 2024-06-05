@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OOXXGame"
+        tools:targetApi="31">
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".RuleActivity"
+            android:exported="true"
+            />
+        <activity android:name=".NormalModeActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".GameActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".EnterActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".EnrollActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".activity.LevelActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

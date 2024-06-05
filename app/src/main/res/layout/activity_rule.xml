@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_main"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_rule"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:background="@drawable/bt_bg"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="310dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏规则：\n每一行以及每一列中没有超过两个连续的X或O\n每一行或每一列中的X和O数量相同\n每一行以及每一列都是唯一的。\n通关可获得积分，经典模式可获得5分的积分，困难模式10分。"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="21dp"
+            android:textColor="#022303" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

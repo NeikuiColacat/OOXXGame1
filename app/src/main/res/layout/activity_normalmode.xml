@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_1"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:onClick="onGridButtonClick"
+        android:orientation="horizontal">
+
+
+        <!-- 添加其余24个Button作为游戏格子 -->
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/markRulerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:backgroundTint="#E0065326"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gridLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="toggleRuler" />
+
+</RelativeLayout>

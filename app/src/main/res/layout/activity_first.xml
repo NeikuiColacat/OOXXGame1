@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_first"
+    tools:context="..FirstActivity" >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/play_bt"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="#689F51"
+        android:text="Play Game"
+        android:textSize="18dp"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="525dp"/>
+
+</LinearLayout>
